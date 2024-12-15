@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.epique_key.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"key": {
+					"rotation": [-164.35363, -26.275, -390.06498],
+					"position": [-7.42129, 21.0899, -4.71722]
+				}
+			}
+		},
+		"animation.epique_key.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"key": {
+					"rotation": [-295.50038, -87.78528, 565.65136],
+					"position": [0, 20.78444, -6.9352]
+				}
+			}
+		}
+	}
+}

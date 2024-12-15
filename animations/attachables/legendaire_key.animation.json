@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.legendaire_key.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"key": {
+					"rotation": [-67.78385, 153.98344, -808.01701],
+					"position": [-9.25417, 20.34474, -4.74941]
+				}
+			}
+		},
+		"animation.legendaire_key.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [25, 0, 0],
+					"position": [0.5, 19, -2.5],
+					"scale": 0.85
+				},
+				"key": {
+					"rotation": [-451.32681, 84.61776, 360.79415],
+					"position": [0, 18.28444, -4.4352]
+				}
+			}
+		}
+	}
+}

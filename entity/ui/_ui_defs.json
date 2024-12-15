@@ -1,0 +1,88 @@
+{
+    "ui_defs": [
+        "ui/custom_pocket_containers.json",
+        "ui/custom_scroll_screen.json",
+
+        "ui/Endiorite.json",
+
+        "ui/scoreboard_ui.json",
+
+        "ui/Kits.json",
+
+        "ui/hdv/hdvAnnonces.json",
+        "ui/hdv/hdvAnnoncesonly.json",
+        "ui/hdv/hdvsearch.json",
+        "ui/hdv/hdvAnnoncesbuy.json",
+
+        "ui/job/Jobs.json",
+        "ui/job/Xp-bar.json",
+        "ui/job/Farmer.json",
+        "ui/job/Mineur.json",
+        "ui/job/Alchimiste.json",
+        "ui/job/Hunter.json",
+
+        "uidx/ui_deluxe_textures.uidx",
+        //  Main screens.
+        "uidx/chat_screen.uidx",
+        "uidx/command_block_screen.uidx",
+        "uidx/death_screen.uidx",
+        "uidx/debug_screen.uidx",
+        "uidx/disconnect_screen.uidx",
+        "uidx/hud_screen.uidx",
+        "uidx/in_bed_screen.uidx",
+        "uidx/pause_screen.uidx",
+        "uidx/progress_screen.uidx",
+        "uidx/scoreboards.uidx",
+        "uidx/start_screen.uidx",
+        "uidx/sign_screen.uidx",
+        //  Inventory screens.
+        "uidx/anvil_screen.uidx",
+        "uidx/beacon_screen.uidx",
+        "uidx/brewing_stand_screen.uidx",
+        "uidx/crafting_screen.uidx",
+        "uidx/creative_screen.uidx",
+        "uidx/enchanting_screen.uidx",
+        "uidx/furnace_screen.uidx",
+        "uidx/horse_screen.uidx",
+        "uidx/inventory_screen.uidx",
+        "uidx/inventory_screen_alt.uidx",
+        "uidx/recipe_book_screen.uidx",
+        "uidx/redstone_screen.uidx",
+        "uidx/trade_screen.uidx",
+        //  Global screens.
+        "uidx/settings_common.uidx",
+        "uidx/ui_art_assets_common.uidx",
+        "uidx/ui_common.uidx",
+        "uidx/ui_common_console.uidx",
+        "uidx/ui_common_java.uidx",
+        "uidx/ui_container_item.uidx",
+        "uidx/ui_inv_container_item.uidx",
+        "uidx/ui_template_custom.uidx",
+        //  Misc Screens.
+        "uidx/test_screen.uidx",
+        //  Java GUI and Container Textures!
+        "uidx/java_gui/allitems.uidx",
+        "uidx/java_gui/anvil.uidx",
+        "uidx/java_gui/beacon.uidx",
+        "uidx/java_gui/brewing_stand.uidx",
+        "uidx/java_gui/crafting_table.uidx",
+        "uidx/java_gui/creative_inventory.uidx",
+        "uidx/java_gui/dispenser.uidx",
+        "uidx/java_gui/enchanting_table.uidx",
+        "uidx/java_gui/furnace.uidx",
+        "uidx/java_gui/hopper.uidx",
+        "uidx/java_gui/horse.uidx",
+        "uidx/java_gui/icons.uidx",
+        "uidx/java_gui/inventory.uidx",
+        "uidx/java_gui/recipe_book.uidx",
+        "uidx/java_gui/shulker_box.uidx",
+        "uidx/java_gui/title_edition.uidx",
+        "uidx/java_gui/title_minecraft.uidx",
+        "uidx/java_gui/villager.uidx",
+        "uidx/java_gui/widgets.uidx",
+        //  #endregion
+
+        "ui/Navigation/endiorite_navigation.json",
+        "ui/Navigation/endiorite_pause.json"
+    ]
+}

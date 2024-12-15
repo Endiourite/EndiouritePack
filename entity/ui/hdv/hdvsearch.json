@@ -1,0 +1,141 @@
+{
+	"namespace": "hdvsearch",
+
+        "ui": {
+          "type": "stack_panel",
+          "size": ["100%","100%"],
+          "controls": [
+
+                      {"hdvsearch": {
+                        "type": "panel",
+                        "size":["100%","100%"],
+                        "controls": [
+
+                                {"background":{
+                                      "type":"image",
+                                      "size":[250,150],
+                                      "layer":10,
+                                      "texture":"textures/ui/Endiorite/background_2",
+                                      "controls":[
+
+                                                {"close_button@Endiorite.close_button":{
+                                                        "size":[10,10],
+                                                        "offset":[-12,12]
+                                                }},
+
+                                                {"title":{
+                                                  "type":"label",
+                                                  "font_scale_factor":2,
+                                                  "text":"Recherche",
+                                                  "offset":[0,20],
+                                                  "anchor_from":"top_middle",
+                                                  "anchor_to":"top_middle",
+                                                  "font_type":"MinecraftTen",
+                                                  "color": [0.725,0.110,0.047],
+                                                  "controls": [
+                                                          {
+                                                              "shadow": {
+                                                                  "type": "label",
+                                                                  "font_scale_factor":2,
+                                                                  "font_type": "MinecraftTen",
+                                                                  "text": "Recherche",
+                                                                  "color": [0.937,0.224, 0.149],
+                                                                  "offset": [0,-0.7]
+                                                              }}]
+                                                }},
+
+                                                {"subtitle":{
+                                                  "type":"label",
+                                                  "font_scale_factor":0.8,
+                                                  "text":"RECHERCHER VOTRE ITEM ICI (anglais)",
+                                                  "offset":[0,45],
+                                                  "anchor_from":"top_middle",
+                                                  "anchor_to":"top_middle",
+                                                  "font_type":"MinecraftTen"
+                                                }},
+                                              
+                                                {"main_panel": {
+                                                        "size": ["100%", "100%"],
+                                                        "type": "panel",
+                                                        "controls": [
+                                                                
+                                                                        {"submit_button@common_buttons.light_text_button": {
+                                                                                  "$pressed_button_name": "button.submit_custom_form",
+                                                                                  "layer":100000,
+                                                                                  "size": [90, 20],
+                                                                                  "offset":[0,40],
+                                                                                  "$button_text": "gui.submit",
+                                                                                  "controls":[
+
+                                                                                    {"text":{
+                                                                                      "type":"label",
+                                                                                      "text":"rechercher",
+                                                                                      "layer":100000,
+                                                                                      "offset":[0,2.5],
+                                                                                      "size":["100%","100%"],
+                                                                                      "text_alignment":"center",
+                                                                                      "font_type":"MinecraftTen"
+
+                                                                                    }},
+
+                                                                                    {"texture@Endiorite.button_red":{}},
+                                                                                    {"hover@Endiorite.button_red_hover":{}}
+
+                                                                                      
+                                                                                  ],
+                                                                                  "bindings": [
+
+                                                                                    {
+                                                                                      "binding_name": "#submit_button_visible",
+                                                                                      "binding_name_override": "#visible"
+                                                                                    }
+                                                                        ]}},
+
+                                                                        {"Custome_input@common.multiline_text_edit_box": {
+                                                                                "$option_text_edit_control_size|default": [200,"20px"],
+                                                                                "offset":[0,5],
+                                                                                "$place_holder_text": "Nom Item",
+                                                                                "$text_background_default": "Endiorite.edit_box_indent",
+                                                                                "$text_background_hover": "Endiorite.edit_box_indent_hover",
+
+                                                                                "$text_box_tts_header": "$option_label",
+                                                                                "$text_edit_box_binding_collection_name": "$option_binding_name",
+                                                                                "$text_edit_box_binding_type": "global",
+                                                                 
+                                                                                "$tts_override_control_value|default": " ",
+                                                                                "constrain_to_rect": true,
+                                                                                "enabled": "$enabled",
+                                                                                "max_length": "$max_text_edit_length",
+                                                                                "size": "$option_text_edit_control_size",
+                                                                                "tts_override_control_value": "$tts_override_control_value",
+
+                                                                                "$option_place_holder_text": "#custom_placeholder_text",
+                                                                                "$text_edit_box_placeholder_content_binding_name": "$option_place_holder_text",
+                                                                                "$text_edit_box_placeholder_content_binding_type": "collection",
+                                                                                "$text_edit_box_grid_collection_name": "custom_form",
+     
+                                                                                "$max_text_edit_length": 100,
+                                                                            
+                                                                                "$text_edit_box_content_binding_type": "collection",
+                                                                                "$text_edit_box_content_binding_name": "#custom_input_text",
+                                                                            
+                                                                                "$option_binding_name": "#custom_input_text",
+                                                                                "$text_box_enabled_binding_name": "#custom_input_enabled",
+                                                                                "$text_box_name": "custom_input",
+                                                                                "variables": [
+                                                                                  {
+                                                                                    "$text_box_enabled_binding_name": "#not_data_bound",
+                                                                                    "$text_edit_box_enabled_binding_type": "none",
+                                                                                    "requires": "(not $option_enabled_binding_name or not $enabled)"
+                                                                                  }
+                                                                                ]
+                                                                        }}]
+                                                }}]
+
+                                                }}
+                                                ]}}
+                                                ]}}
+                                                                                                        
+                                                                                                        
+                                                        
+                                                        

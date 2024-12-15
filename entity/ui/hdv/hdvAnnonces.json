@@ -1,0 +1,750 @@
+{
+	"namespace": "hdvAnnonces",
+
+        "ui": {
+          "type": "stack_panel",
+          "size": ["100%","100%"],
+          "controls": [
+
+                      {"hdvAnnonces": {
+                        "type": "panel",
+                        "size": ["100%","100%"],
+                        "controls": [
+                                
+
+                                {"background":{
+                                      "type":"image",
+                                      "size":[400,260],
+                                      "texture":"textures/ui/Endiorite/background_4",
+                                      "controls":[
+
+                                                {"close_button@Endiorite.close_button":{
+                                                        "size":[10,10],
+                                                        "offset":[-12,12]
+                                                }},
+
+                                                {"search_button":{
+                                                        "type":"panel",
+                                                        "anchor_from":"top_right",
+                                                        "anchor_to":"top_right",
+                                                        "size":[10,10],
+                                                        "offset":[-25,12],
+                                                        "controls":[
+
+                                                                {"search_button@hdvAnnonces.button-search":{}}
+                                                ]}},
+
+                                                {"banner":{
+                                                        "type":"image",
+                                                        "anchor_from":"top_middle",
+                                                        "anchor_to":"top_middle",
+                                                        "texture":"textures/ui/Endiorite/banner",
+                                                        "size":["80%",30]
+                                                }},
+
+                                                {"title":{
+                                                        "type":"label",
+                                                        "font_scale_factor":2,
+                                                        "text":"hotel des ventes",
+                                                        "offset":[0,35],
+                                                        "anchor_from":"top_middle",
+                                                        "anchor_to":"top_middle",
+                                                        "font_type":"MinecraftTen",
+                                                        "color": [0.725,0.110,0.047],
+                                                        "controls": [
+                                                                {
+                                                                    "shadow": {
+                                                                        "type": "label",
+                                                                        "font_scale_factor":2,
+                                                                        "font_type": "MinecraftTen",
+                                                                        "text": "hotel des ventes",
+                                                                        "color": [0.937,0.224, 0.149],
+                                                                        "offset": [0,-0.7]
+                                                                    }}]
+                                                }},
+
+                                                {"subtitle":{
+                                                        "type":"label",
+                                                        "font_scale_factor":0.8,
+                                                        "text":"Vendez ou achetez des items",
+                                                        "offset":[0,60],
+                                                        "anchor_from":"top_middle",
+                                                        "anchor_to":"top_middle",
+                                                        "font_type":"MinecraftTen"
+                                                }},
+
+                                                
+
+                                                {"info-panel":{
+                                                        "type":"panel",
+                                                        "size":["93%",25],
+                                                        "offset":[0,-25],
+                                                        "controls":[
+
+                                                                {"info-panel":{
+                                                                        "type":"stack_panel",
+                                                                        "orientation":"horizontal",
+                                                                        "size":["100%","100%"],
+                                                                        "controls":[
+
+                                                                                {"Money-panel":{
+                                                                                        "type":"image",
+                                                                                        "size":["40%","100%"],
+                                                                                        "texture":"textures/ui/Endiorite/background_green",
+                                                                                        "controls":[
+
+                                                                                                {"Money-panel-info":{
+                                                                                                        "type":"stack_panel",
+                                                                                                        "orientation":"horizontal",
+                                                                                                        "size":["100%","100%"],
+                                                                                                        "controls":[
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["5%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"Money-panel-title":{
+                                                                                                                        "type":"panel",
+                                                                                                                        "size":["20%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"title@Endiorite.title-09":{
+                                                                                                                                        "text":"Money",
+                                                                                                                                        "offset":[0,-1.5]
+                                                                                                                                }}
+                                                                                                                
+                                                                                                                
+                                                                                                                
+                                                                                                                ]}},
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["3.8%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"Money-panel-bar":{
+                                                                                                                        "type":"panel",
+                                                                                                                        "size":[0.5,"100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"title":{
+                                                                                                                                        "type":"image",
+                                                                                                                                        "size":["100%","60%"],
+                                                                                                                                        "texture":"textures/ui/Endiorite/bar" 
+                                                                                                                                }}
+
+                                                                                                                ]}},
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["5.2%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"Money-panel-logo":{
+                                                                                                                        "type":"panel",
+                                                                                                                        "size":["10%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"title":{
+                                                                                                                                        "type":"image",
+                                                                                                                                        "size":[16,16],
+                                                                                                                                        "offset":[0,-0.3],
+                                                                                                                                        "texture":"textures/ui/Endiorite/money" 
+                                                                                                                                }}
+
+                                                                                                                ]}},
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["3%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"Money-panel-title":{
+                                                                                                                        "type":"collection_panel",
+                                                                                                                        "collection_name": "form_buttons",
+                                                                                                                        "clips_children":true,
+                                                                                                                        "size":["50%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"money-button@hdvAnnonces.button-Money":{}}
+
+
+
+
+                                                                                                        ]}}
+                                                                                                ]}}
+                                                                                ]}},
+
+                                                                                {"space@Endiorite.space":{
+                                                                                        "size":["1%","100%"]
+
+                                                                                }},
+
+                                                                                {"annonces-panel":{
+                                                                                        "type":"image",
+                                                                                        "size":["59%","100%"],
+                                                                                        "texture":"textures/ui/Endiorite/background_red",
+                                                                                        "controls":[
+
+                                                                                                {"annonces-panel-info":{
+                                                                                                        "type":"stack_panel",
+                                                                                                        "orientation":"horizontal",
+                                                                                                        "size":["100%","100%"],
+                                                                                                        "controls":[
+
+                                                                                                                
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["1%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"annonces-panel-title":{
+                                                                                                                                        "type":"panel",
+                                                                                                                                        "size":["41.5%","100%"],
+                                                                                                                                        "controls":[
+
+                                                                                                                                                {"title@Endiorite.title-09":{
+                                                                                                                                                        "text":"Nombre d'annonce",
+                                                                                                                                                        "offset":[0.5,-1.5],
+                                                                                                                                                        "text-alignement":"center"                                                                                                                                            
+                                                                                                                                                }}
+                                                                                                                                                                
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                                ]}},
+
+                                                                                                                {"annonces-panel-bar":{
+                                                                                                                        "type":"panel",
+                                                                                                                        "size":["0.8%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"bar":{
+                                                                                                                                        "type":"image",
+                                                                                                                                        "layer":20,
+                                                                                                                                        "size":["100%","60%"],
+                                                                                                                                        "texture":"textures/ui/Endiorite/bar" 
+                                                                                                                                }}
+                                                                                                                ]}},
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["1.0%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"annonces-panel-title":{
+                                                                                                                        "type":"collection_panel",
+                                                                                                                        "collection_name": "form_buttons",
+                                                                                                                        "size":["20%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"annonces-button@hdvAnnonces.button-Annonce-number":{}}
+                                                                                                                                                
+                                                                                                                        
+                                                                                                                        
+                                                                                                                ]}},
+
+                                                                                                                {"space@Endiorite.space":{
+                                                                                                                        "size":["15%","100%"]
+                                
+                                                                                                                }},
+
+                                                                                                                {"annonces-panel-title":{
+                                                                                                                        "type":"collection_panel",
+                                                                                                                        "collection_name": "form_buttons",
+                                                                                                                        "size":["15%","100%"],
+                                                                                                                        "controls":[
+
+                                                                                                                                {"annonces-button@hdvAnnonces.button-MesAnnonces":{}}
+                                                                                                                ]}}
+                                                                                                ]}}
+                                                                                ]}}
+                                                                ]}}
+                                                ]}},
+
+                                                {"info-panel":{
+                                                        "type":"panel",
+                                                        "anchor_from":"bottom_middle",
+                                                        "anchor_to":"bottom_middle",
+                                                        "offset":[0,-8],
+                                                        "size":["95%","50%"],
+                                                        "controls":[
+
+                                                                {"annonces_panel":{
+                                                                        "type":"stack_panel",
+                                                                        "size":["100%","100%"],
+                                                                        "controls":[
+
+                                                                                {"annonces_panel":{
+                                                                                        "type":"stack_panel",
+                                                                                        "orientation":"horizontal",
+                                                                                        "size":["100%","96%"],
+                                                                                        "controls":[
+
+                                                                                                {"space@Endiorite.space":{
+                                                                                                                "size":["1%","100%"]
+                        
+                                                                                                }},
+
+                                                                                                {"info-panel":{
+                                                                                                        "type":"panel",
+                                                                                                        "size":["98%","100%"],
+                                                                                                        "controls":[
+
+                                                                                                                {"annonces_panel":{
+                                                                                                                        "type":"image",
+                                                                                                                        "size":["100%","100% - 1px"],
+                                                                                                                        "texture":"textures/ui/Endiorite/background_black",
+                                                                                                                        "controls":[
+
+                                                                                                                                {"gerg@hdvAnnonces.Grille":{}},
+
+                                                                                                                                {"gerg@hdvAnnonces.button-skip-left":{
+                                                                                                                                        "offset":[-210]
+                                                                                                                                }},
+
+                                                                                                                                {"gerg@hdvAnnonces.button-skip-right":{
+                                                                                                                                        "offset":[210]
+                                                                                                                                }}
+                                                                                                                               
+
+
+                                                                                        ]}}
+                                                                                        ]}}                                                                 
+                                                                                        ]}}
+                                                                                        ]}}
+                                                                                        ]}}
+                                        
+                                        
+                                        
+                        ]}}
+                        ]}}
+                        ]},
+                
+                        /////////////////////////// Button "Grille button d'annonce" ///////////////////////////
+                
+                        "Grille": {
+                                "type": "grid",
+                                "size":["100%","100%c"],
+                                "offset":[0,2.1],
+                                "grid_item_template": "hdvAnnonces.button_panel",
+                                "anchor_from":"top_middle",
+                                "anchor_to":"top_middle",
+                                "collection_name": "form_buttons",
+                                "grid_rescaling_type": "horizontal",
+                                "bindings": [
+                                    {
+                                        "binding_name": "#form_button_length",
+                                        "binding_name_override": "#maximum_grid_items"
+                                    }
+                        ]},
+ 
+                        "button_panel":{
+                                "type":"panel",
+                                "size": [122,20],
+                                "bindings": [
+                                        {
+                                                "binding_name": "#form_button_text",
+                                                "binding_name_override": "#form_button_text",
+                                                "binding_type": "collection",
+                                                "binding_collection_name": "form_buttons"
+                                              },
+                                              {
+                                                "binding_type": "view",
+                                                "source_property_name": "(not((#form_button_text - '§p§a§n§n§o§c§e§s§f§r') \u003d #form_button_text))",
+                                                "target_property_name": "#visible"
+                                              }
+                                        
+                                              ],
+                                "controls":[
+                                
+                                        {"button@common.button":{
+                                            "size": [119,19],
+                                            "bindings": [
+                                                     {
+                                                        "binding_type": "collection_details",
+                                                        "binding_collection_name": "form_buttons"
+                                                      },
+                                                      {
+                                                        "binding_name": "#form_button_text",
+                                                        "binding_name_override": "#form_button_text",
+                                                        "binding_type": "collection",
+                                                        "binding_collection_name": "form_buttons"
+                                                      },
+                                                      {
+                                                        "binding_type": "view",
+                                                        "source_property_name": "(not((#form_button_text - '§p§a§n§n§o§c§e§s§f§r') \u003d #form_button_text))",
+                                                        "target_property_name": "#visible"
+                                                      }
+
+                                              ],
+
+                                              "button_mappings": [
+
+                                                {"from_button_id": "button.menu_select",
+                                                "to_button_id": "button.form_button_click",
+                                                "mapping_type": "pressed"},
+                        
+                                               {"from_button_id": "button.menu_ok",
+                                                "to_button_id": "button.form_button_click",
+                                                "mapping_type": "focused"}],
+
+                                            "controls":[
+                
+                
+                                                {"texture":{
+                                                    "type":"image",
+                                                    "texture":"textures/ui/Endiorite/button_grey",
+                                                    "size":["100%","100%"],
+                                                    "layer":4
+                                                }},
+                
+                                                {"hover":{
+                                                        "type":"image",
+                                                        "texture":"textures/ui/Endiorite/button_grey_hover",
+                                                        "size":["100%","100%"],
+                                                        "layer":4
+                                                }},
+
+                                                {"button-asset":{
+                                                        "type":"stack_panel",
+                                                        "orientation":"horizontal",
+                                                        "clips_children":true,
+                                                        "layer":5,
+                                                        "size":["100%","100%"],
+                                                        "controls":[
+
+                                                                {"Panel-icone":{
+                                                                        "type":"panel",
+                                                                        "size":[16.5,16.5],
+                                                                        "controls":[
+
+                                                                                {"icone@Endiorite.icone":{
+                                                                                        "size":[12.6,12.6],
+                                                                                        "offset":[-0.3,1]
+                                                                                }}
+
+                                                                ]}},
+
+                                                                {"Panel-icone":{
+                                                                        "type":"panel",
+                                                                        "size":["85%","100%"],
+                                                                        "max-size":["85%","100%"],
+                                                                        "clips_children":true,
+                                                                        "controls":[
+
+                                                                        {"Panel-icone":{
+                                                                                "type":"stack_panel",
+                                                                                "orientation":"horizontal",
+                                                                                "size":["100%","100%"],
+                                                                                "controls":[
+                                                                                        
+                                                                                        {"button_panel":{
+                                                                                                "type":"panel",
+                                                                                                "size":["100%","100%"],
+                                                                                                "controls": [
+
+                                                                                                        {"button_panel":{
+                                                                                                                "type":"panel",
+                                                                                                                "anchor_from":"left_middle",
+                                                                                                                "anchor_to":"left_middle",
+                                                                                                                "offset":[-6,-1.3],
+                                                                                                                "size":["100%c","100%c"],
+                                                                                                                "controls": [
+                                                                                                                        
+
+                                                                                                                        {"Text_button":{
+                                                                                                                                "text":"#text",
+                                                                                                                                "type":"label",
+                                                                                                                                "font_scale_factor":0.7,
+                                                                                                                                "text_alignment":"left",
+                                                                                                                                "font_type":"MinecraftTen",
+                                                                                                                                "layer":5,
+                                                                                                                                "bindings": [
+                                                                                
+                                                                                                                                { "binding_name": "#form_button_text",
+                                                                                                                                "binding_name_override": "#text",
+                                                                                                                                "binding_type": "collection",
+                                                                                                                                "binding_collection_name": "form_buttons"}
+                                                                                                                        ]}},
+
+                                                                                                                        {"Money-panel-logo":{
+                                                                                                                                "type":"panel",
+                                                                                                                                "anchor_from":"right_middle",
+                                                                                                                                "anchor_to":"right_middle",
+                                                                                                                                "layer":20,
+                                                                                                                                "offset":[8,1],
+                                                                                                                                "size":[13,13],
+                                                                                                                                "controls":[
+                                                                        
+                                                                                                                                        {"title":{
+                                                                                                                                                "type":"image",
+                                                                                                                                                "size":[13,13],
+                                                                                                                                                "layer":20,
+                                                                                                                                                "texture":"textures/ui/Endiorite/money" 
+                                                                                                                                        }}
+                                                                        
+                                                                ]}}
+                                                                ]}}
+                                                                ]}}
+                                                                ]}}
+
+
+
+
+
+
+
+
+                                                                                
+                                                                                ]}}
+                                                                                        
+
+                                                                
+                                                ]}}
+                                        
+                                        ]}}
+                        ]},
+
+                        /////////////////////////// Button "Mes Annonces" ///////////////////////////
+
+                        "Asset-button-MesAnnonces@Endiorite.button":{
+                                "size":[50,15],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§a§n§n§o§n§c§e§f§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                       
+                                        {"texture@Endiorite.button_red":{}},
+                                        {"hover@Endiorite.button_red_hover":{}},
+                                        {"text@Endiorite.Text_button":{
+                                                "text":"#text",
+                                                "font_scale_factor":0.7,
+                                                "layer":20,
+                                                "offset":[0,-1.5]
+
+                                        }}
+                                                    
+
+                        ]},
+                        
+                        "button-MesAnnonces@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-MesAnnonces"
+                                      }
+                                  
+                        },
+
+                        /////////////////////////// Button "Money" ///////////////////////////
+                        
+                        "Asset-button-Money@Endiorite.button-text":{
+                                "size":[50,15],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§M§o§n§e§y§f§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                        {"title@Endiorite.Text_button":{
+                                                "text":"#text",
+                                                "offset":[0,-1.5],
+                                                "text-alignement":"left"
+                                        }}
+                                                    
+
+                        ]},
+                        
+                        "button-Money@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-Money"
+                                      }
+                                  
+                        },
+
+                        /////////////////////////// Button "Annonce number" ///////////////////////////
+
+
+                        "Asset-button-Annonce-number@Endiorite.button-text":{
+                                "size":[50,15],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§n§a§n§n§o§n§c§e§s§f§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                        {"title@Endiorite.Text_button":{
+                                                "text":"#text",
+                                                "offset":[0,-1.5],
+                                                "text-alignement":"left"
+                                        }}
+                                                    
+
+                        ]},
+                        
+                        "button-Annonce-number@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-Annonce-number"
+                                      }
+                                  
+                        },
+                
+                        /////////////////////////// Button "Search" ///////////////////////////
+
+                        "Asset-button-Search@Endiorite.button":{
+                                "size":[10,10],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§s§e§a§r§c§h§f§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                        {"texture@Endiorite.button_search":{}},
+                                        {"hover@Endiorite.button_search_hover":{}}
+                                                    
+
+                        ]},
+                        
+                        "button-search@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-Search"
+                                      }
+                                  
+                        },
+
+                        /////////////////////////// Button "Skip left" ///////////////////////////
+
+                        "Asset-button-skip-left@Endiorite.button":{
+                                "size":[10,10],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§s§k§i§p§l§e§f§t§f§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                        {"texture@Endiorite.button_arrow_left":{}},
+                                        {"hover@Endiorite.button_arrow_left_hover":{}}
+                                                    
+
+                        ]},
+                        
+                        "button-skip-left@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-skip-left"
+                                      }
+                                  
+                        },
+
+                        /////////////////////////// Button "Skip Right" ///////////////////////////
+                
+                        "Asset-button-skip-right@Endiorite.button":{
+                                "size":[10,10],
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_name": "#form_button_text",
+                                      "binding_name_override": "#form_button_text",
+                                      "binding_type": "collection",
+                                      "binding_collection_name": "form_buttons"
+                                    },
+                                    {
+                                      "binding_type": "view",
+                                      "source_property_name": "(not((#form_button_text - '§s§k§i§p§r§i§g§h§t§r') \u003d #form_button_text))",
+                                      "target_property_name": "#visible"
+                                    }
+                                  ],
+                        
+                                "controls":[
+                                        
+                                        {"texture@Endiorite.button_arrow_right":{}},
+                                        {"hover@Endiorite.button_arrow_right_hover":{}}
+                                                    
+
+                        ]},
+                        
+                        "button-skip-right@Endiorite.Get_button":{
+                                      "factory": {
+                                      "name":"button",
+                                      "control_name": "hdvAnnonces.Asset-button-skip-right"
+                                      }
+                        }
+}

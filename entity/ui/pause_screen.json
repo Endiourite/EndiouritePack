@@ -1,0 +1,147 @@
+{"pause_screen": {
+    "controls":[
+   
+    {"pause_screen":{
+        "type": "panel",
+        "size": [
+            "100%",
+            "100%"
+        ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "layer": 1,
+        "controls": [
+            {
+                "background": {
+                    "type": "image",
+                    "texture": "textures/ui/hud_tip_text_background",
+                    "size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "alpha": 0.5,
+                    "layer": -1
+                }
+            },
+            {
+                "banner@pause.banner": {
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle"
+                }
+            },
+            {
+                "leave@pause.leave": {}
+            },
+            {
+                "play@pause.play": {}
+            },
+            {
+                "settings@pause.settings": {}
+            },
+            {
+                "player_panel@pause.player_panel": {}
+            }
+        ]}}
+        ]},
+
+
+    "banner": {
+        "type": "image",
+        "texture": "textures/ui/banner",
+        "layer": 0,
+        "size": [
+            "26%",
+            "26%"
+        ],
+        "offset": [
+            0,
+            "13%"
+        ]
+    },
+    "leave@common_buttons.dark_text_button": {
+        "$new_ui_label_offset": [
+            0,
+            -2
+        ],
+        "size": [
+            "20%",
+            "9%"
+        ],
+        "offset": [
+            "0%",
+            "25%"
+        ],
+        "$pressed_button_name": "button.menu_quit",
+        "$button_text": "Se déconnecter",
+        "anchor_from": "center",
+        "anchor_to": "center"
+    },
+    "play@common_buttons.dark_text_button": {
+        "$new_ui_label_offset": [
+            0,
+            -2
+        ],
+        "size": [
+            "20%",
+            "9%"
+        ],
+        "offset": [
+            "-25%",
+            "0%"
+        ],
+        "$pressed_button_name": "button.menu_continue",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "$button_text": "Revenir"
+    },
+    "settings@common_buttons.dark_text_button": {
+        "$new_ui_label_offset": [
+            0,
+            -2
+        ],
+        "size": [
+            "20%",
+            "9%"
+        ],
+        "offset": [
+            "25%",
+            "0%"
+        ],
+        "$pressed_button_name": "button.menu_settings",
+        "$button_text": "Paramètres",
+        "anchor_from": "center",
+        "anchor_to": "center"
+    },
+    "player_panel": {
+        "type": "panel",
+        "size": [
+            "15%",
+            "15%"
+        ],
+        "offset": [
+            0,
+            -15
+        ],
+        "controls": [
+            {
+                "player_renderer": {
+                    "type": "custom",
+                    "renderer": "live_player_renderer",
+                    "property_bag": {
+                        "#look_at_cursor": true
+                    },
+                    "animation_reset_name": "screen_animation_reset",
+                    "anims": [
+                        "@common.screen_exit_size_animation_push",
+                        "@common.screen_exit_size_animation_pop",
+                        "@common.screen_entrance_size_animation_push",
+                        "@common.screen_entrance_size_animation_pop"
+                    ],
+                    "layer": 8,
+                    "anchor_from": "center",
+                    "anchor_to": "center"
+                }
+            }
+        ]
+    }
+}
