@@ -1,0 +1,67 @@
+{
+	"format_version": [1,1,0],
+
+	"endiorite:hardened_obsidian": {
+		"texures": "obsidian",
+		"sound": "stone"
+	},
+	"endiorite:fake_water": {
+		"textures" : {
+         	   "down" : "still_water_grey",
+         	   "side" : "flowing_water_grey",
+         	   "up" : "still_water_grey"
+     		}
+	},
+	"endiorite:fake_water_spread": {
+		"textures" : {
+         	   "down" : "still_water_grey",
+         	   "side" : "flowing_water_grey",
+         	   "up" : "still_water_grey"
+     		}
+	},
+	"endiorite:cobblebreaker" : { 
+	  "textures" : {
+         "down" : "cobblebreaker_default_side",
+         "east" : "cobblebreaker_default_side",
+         "north" : "cobblebreaker_default_side",
+         "south" : "cobblebreaker_default_front",
+         "up" : "cobblebreaker_default_top",
+         "west" : "cobblebreaker_default_side"
+      },
+      "sound" : "stone" 
+    },
+	"palamachine" : { 
+	  "textures" : "palamachine",
+      "sound" : "stone" 
+    },
+	"machine_crusher" : { 
+	  "textures" : "machine_crusher",
+      "sound" : "stone" 
+    },
+	"titanechest": {
+		"textures" : "titanechest",
+		"sound" : "wood" 
+	},
+	"amethystechest": {
+		"textures" : "amethystechest",
+		"sound" : "wood" 
+	},
+	"palladiumchest": {
+		"textures" : "palladiumchest",
+		"sound" : "wood" 
+	},
+	"endioritechest": {
+		"textures" : "endioritechest",
+		"sound" : "wood" 
+	},
+	"eggplant_stage_one": {
+		"textures": "eggplant_stage_0"
+	},
+	"connected_dirt": {
+		"textures": "connected_dirt"
+                "sound" : "dirt"
+	},
+	"totemoffertility": {
+		"textures": "totemoffertility"
+	}
+}
