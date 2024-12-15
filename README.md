@@ -1,2 +1,2 @@
-# InventoryUIResourcePack
-Resource pack for [InventoryUI](https://github.com/tedo0627/InventoryUI)
+# Endiourite 
+Endiourite, où l'ingéniosité redéfinit les horizons de Minecraft: Bedrock Édition.
