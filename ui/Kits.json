@@ -1,0 +1,657 @@
+{
+	"namespace": "Kits",
+
+        "ui": {
+          "type": "stack_panel",
+          "size": ["100%","100%"],
+          "controls": [
+
+                      {"hdvsearch": {
+                        "type": "panel",
+                        "size":["100%","100%"],
+                        "controls": [
+
+                                {"background":{
+                                      "type":"image",
+                                      "size":[370,230],
+                                      "layer":10,
+                                      "texture":"textures/ui/Endiorite/background_6",
+                                      "controls":[
+
+                                                {"close_button@Endiorite.close_button":{
+                                                        "size":[10,10],
+                                                        "offset":[-20,10.6]
+                                                }},
+
+                                                {"title":{
+                                                  "type":"label",
+                                                  "font_scale_factor":2,
+                                                  "text":"Kits",
+                                                  "offset":[0,15],
+                                                  "anchor_from":"top_middle",
+                                                  "anchor_to":"top_middle",
+                                                  "font_type":"MinecraftTen",
+                                                  "color": [0.725,0.110,0.047],
+                                                  "controls": [
+                                                          {
+                                                              "shadow": {
+                                                                  "type": "label",
+                                                                  "font_scale_factor":2,
+                                                                  "font_type": "MinecraftTen",
+                                                                  "text": "Kits",
+                                                                  "color": [0.937,0.224, 0.149],
+                                                                  "offset": [0,-0.7]
+                                                              }}]
+                                                }},
+
+                                                {"subtitle":{
+                                                  "type":"label",
+                                                  "font_scale_factor":0.8,
+                                                  "text":"Choisiez votre kits ici",
+                                                  "offset":[0,40],
+                                                  "anchor_from":"top_middle",
+                                                  "anchor_to":"top_middle",
+                                                  "font_type":"MinecraftTen"
+                                                }},
+
+                                                
+                                                {"Panel-kit":{
+                                                  "type":"panel",
+                                                  "size":["80%","70%"],
+                                                  "offset":[0,20],
+                                                  "controls":[
+
+                                                        {"Panel-kit":{
+                                                          "type":"stack_panel",
+                                                          "orientation":"horizontal",
+                                                          "size":["100%","100%"],
+                                                          "controls":[
+
+                                                                {"Panel-kit-Joueur":{
+                                                                  "type":"stack_panel",
+                                                                  "size":["25%","100%"],
+                                                                  "controls":[
+
+                                                                    {"Nom-kit":{
+                                                                        "type":"panel",
+                                                                        "size":["100%",25],
+                                                                        "controls":[
+
+                                                                                  {"title":{
+                                                                                    "type":"label",
+                                                                                    "font_scale_factor":1.5,
+                                                                                    "text":"Joueur",
+                                                                                    "font_type":"MinecraftTen",
+                                                                                    "color": [0.725,0.110,0.047],
+                                                                                    "controls": [
+                                                                                            {
+                                                                                                "shadow": {
+                                                                                                    "type": "label",
+                                                                                                    "font_scale_factor":1.5,
+                                                                                                    "font_type": "MinecraftTen",
+                                                                                                    "text": "Joueur",
+                                                                                                    "color": [0.937,0.224, 0.149],
+                                                                                                    "offset": [0,-0.7]
+                                                                                                }}
+                                                                                              
+                                                                                  ]}}
+                                                               
+                                                                    ]}},
+
+                                                                    {"list-item-panel":{
+                                                                        "type":"panel",
+                                                                        "size":["100%","72%"],
+                                                                        "controls":[
+
+                                                                              {"list_item":{
+                                                                                "type":"image",
+                                                                                "size":["95%","100%"],
+                                                                                "texture":"textures/ui/Endiorite/background",
+                                                                                "controls":[
+
+                                                                                  {"list-item-joueur@common.scrolling_panel": {
+                                                                                    "$scroll_box_visible_touch": true,
+                                                                                    "size": ["100%","100%"],
+                                                                                    "$show_background": false,
+                                                                                    "$scrolling_content": "Kits.list-item-joueur",
+                                                                                    "$scroll_size": [5,"100% - 4px"],
+                                                                                    "$scrolling_pane_size": ["100% - 4px","100% - 2px"],
+                                                                                    "$scrolling_pane_offset": [2,0],
+                                                                                    "$scroll_bar_right_padding_size": [0,0]
+                                                                                }}
+                                                                    ]}}
+                                                                    ]}},
+
+                                                                    {"space@Endiorite.space":{
+                                                                      "size":[0,8]
+                                                                    }},
+
+                                                                    {"button":{
+                                                                      "type":"collection_panel",
+                                                                      "collection_name":"form_buttons",
+                                                                      "size":["100%","7%"],
+                                                                      "controls":[
+
+                                                                          {"Asset-button-MesAnnonces@Kits.Asset-button-MesAnnonces":{
+                                                                            "collection_index":0
+                                                                          }}
+
+                                                                      ]}}
+                                                                ]}},
+
+                                                                {"Panel-kit-Titan":{
+                                                                  "type":"stack_panel",
+                                                                  "size":["25%","100%"],
+                                                                  "controls":[
+
+                                                                    {"Nom-kit":{
+                                                                        "type":"panel",
+                                                                        "size":["100%",25],
+                                                                        "controls":[
+
+                                                                                  {"title":{
+                                                                                    "type":"label",
+                                                                                    "font_scale_factor":1.5,
+                                                                                    "text":"Titan",
+                                                                                    "offset":[0.3],
+                                                                                    "font_type":"MinecraftTen",
+                                                                                    "color": [0.725,0.110,0.047],
+                                                                                    "controls": [
+                                                                                            {
+                                                                                                "shadow": {
+                                                                                                    "type": "label",
+                                                                                                    "font_scale_factor":1.5,
+                                                                                                    "font_type": "MinecraftTen",
+                                                                                                    "text": "Titan",
+                                                                                                    "color": [0.937,0.224, 0.149],
+                                                                                                    "offset": [0,-0.7]
+                                                                                                }}
+                                                                                              
+                                                                                  ]}}
+                                                               
+                                                                    ]}},
+
+                                                                    {"list-item-panel":{
+                                                                        "type":"panel",
+                                                                        "size":["100%","72%"],
+                                                                        "controls":[
+
+                                                                              {"list_item":{
+                                                                                "type":"image",
+                                                                                "size":["95%","100%"],
+                                                                                "texture":"textures/ui/Endiorite/background",
+                                                                                "controls":[
+
+                                                                                  {"list-item-joueur@common.scrolling_panel": {
+                                                                                    "$scroll_box_visible_touch": true,
+                                                                                    "size": ["100%","100%"],
+                                                                                    "$show_background": false,
+                                                                                    "$scrolling_content": "Kits.list-item-titan",
+                                                                                    "$scroll_size": [5,"100% - 4px"],
+                                                                                    "$scrolling_pane_size": ["100% - 4px","100% - 2px"],
+                                                                                    "$scrolling_pane_offset": [2,0],
+                                                                                    "$scroll_bar_right_padding_size": [0,0]
+                                                                                }}
+                                                                    ]}}
+                                                                    ]}},
+
+                                                                    {"space@Endiorite.space":{
+                                                                      "size":[0,8]
+                                                                    }},
+
+                                                                    {"button":{
+                                                                      "type":"collection_panel",
+                                                                      "collection_name":"form_buttons",
+                                                                      "size":["100%","7%"],
+                                                                      "controls":[
+
+                                                                          {"Asset-button-MesAnnonces@Kits.Asset-button-MesAnnonces":{
+                                                                            "collection_index":1
+                                                                          }}
+
+
+
+
+
+
+
+
+
+                                                                      ]}}
+
+                                                                ]}},
+
+                                                                {"Panel-kit-Paladin":{
+                                                                  "type":"stack_panel",
+                                                                  "size":["25%","100%"],
+                                                                  "controls":[
+
+                                                                    {"Nom-kit":{
+                                                                        "type":"panel",
+                                                                        "size":["100%",25],
+                                                                        "controls":[
+
+                                                                                  {"title":{
+                                                                                    "type":"label",
+                                                                                    "font_scale_factor":1.5,
+                                                                                    "text":"Paladin",
+                                                                                    "offset":[0.3],
+                                                                                    "font_type":"MinecraftTen",
+                                                                                    "color": [0.725,0.110,0.047],
+                                                                                    "controls": [
+                                                                                            {
+                                                                                                "shadow": {
+                                                                                                    "type": "label",
+                                                                                                    "font_scale_factor":1.5,
+                                                                                                    "font_type": "MinecraftTen",
+                                                                                                    "text": "Paladin",
+                                                                                                    "color": [0.937,0.224, 0.149],
+                                                                                                    "offset": [0,-0.7]
+                                                                                                }}
+                                                                                              
+                                                                                  ]}}
+                                                               
+                                                                    ]}},
+
+                                                                    {"list-item-panel":{
+                                                                        "type":"panel",
+                                                                        "size":["100%","72%"],
+                                                                        "controls":[
+
+                                                                              {"list_item":{
+                                                                                "type":"image",
+                                                                                "size":["95%","100%"],
+                                                                                "texture":"textures/ui/Endiorite/background",
+                                                                                "controls":[
+
+                                                                                  {"list-item-joueur@common.scrolling_panel": {
+                                                                                    "$scroll_box_visible_touch": true,
+                                                                                    "size": ["100%","100%"],
+                                                                                    "$show_background": false,
+                                                                                    "$scrolling_content": "Kits.list-item-paladin",
+                                                                                    "$scroll_size": [5,"100% - 4px"],
+                                                                                    "$scrolling_pane_size": ["100% - 4px","100% - 2px"],
+                                                                                    "$scrolling_pane_offset": [2,0],
+                                                                                    "$scroll_bar_right_padding_size": [0,0]
+                                                                                }}
+
+                                                                    ]}}
+                                                                    ]}},
+
+                                                                    {"space@Endiorite.space":{
+                                                                      "size":[0,8]
+                                                                    }},
+
+                                                                    {"button":{
+                                                                      "type":"collection_panel",
+                                                                      "collection_name":"form_buttons",
+                                                                      "size":["100%","7%"],
+                                                                      "controls":[
+
+                                                                          {"Asset-button-MesAnnonces@Kits.Asset-button-MesAnnonces":{
+                                                                            "collection_index":2
+                                                                          }}
+
+
+
+
+
+
+
+
+
+                                                                      ]}}
+
+                                                                      
+
+
+
+
+
+
+
+
+
+
+
+                                                                ]}},
+
+                                                                {"Panel-kit-Endiorite":{
+                                                                  "type":"stack_panel",
+                                                                  "size":["25%","100%"],
+                                                                  "controls":[
+
+                                                                    {"Nom-kit":{
+                                                                        "type":"panel",
+                                                                        "size":["100%",25],
+                                                                        "controls":[
+
+                                                                                  {"title":{
+                                                                                    "type":"label",
+                                                                                    "font_scale_factor":1.5,
+                                                                                    "text":"Endiorite",
+                                                                                    "offset":[0.3],
+                                                                                    "font_type":"MinecraftTen",
+                                                                                    "color": [0.725,0.110,0.047],
+                                                                                    "controls": [
+                                                                                            {
+                                                                                                "shadow": {
+                                                                                                    "type": "label",
+                                                                                                    "font_scale_factor":1.5,
+                                                                                                    "font_type": "MinecraftTen",
+                                                                                                    "text": "Endiorite",
+                                                                                                    "color": [0.937,0.224, 0.149],
+                                                                                                    "offset": [0,-0.7]
+                                                                                                }}
+                                                                                              
+                                                                                  ]}}
+                                                               
+                                                                    ]}},
+
+                                                                    {"list-item-panel":{
+                                                                        "type":"panel",
+                                                                        "size":["100%","72%"],
+                                                                        "controls":[
+
+                                                                              {"list_item":{
+                                                                                "type":"image",
+                                                                                "size":["95%","100%"],
+                                                                                "texture":"textures/ui/Endiorite/background",
+                                                                                "controls":[
+
+                                                                                  {"list-item-joueur@common.scrolling_panel": {
+                                                                                    "$scroll_box_visible_touch": true,
+                                                                                    "size": ["100%","100%"],
+                                                                                    "$show_background": false,
+                                                                                    "$scrolling_content": "Kits.list-item-endiorite",
+                                                                                    "$scroll_size": [5,"100% - 4px"],
+                                                                                    "$scrolling_pane_size": ["100% - 4px","100% - 2px"],
+                                                                                    "$scrolling_pane_offset": [2,0],
+                                                                                    "$scroll_bar_right_padding_size": [0,0]
+                                                                                }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    ]}}
+                                                                    ]}},
+
+                                                                    {"space@Endiorite.space":{
+                                                                      "size":[0,8]
+                                                                    }},
+
+                                                                    {"button":{
+                                                                      "type":"collection_panel",
+                                                                      "collection_name":"form_buttons",
+                                                                      "size":["100%","7%"],
+                                                                      "controls":[
+
+                                                                        {"Asset-button-MesAnnonces@Kits.Asset-button-MesAnnonces":{
+                                                                          "collection_index":3
+                                                                        }}
+
+
+                                                                      ]}}
+
+
+
+                                                                ]}}
+
+
+
+                                                                    ]}} 
+                                                  
+                                                  
+
+                                                  ]}}
+                                                  ]}}
+                                                  ]}}
+                                                  ]},
+                                                
+                                                
+                                                
+                                            
+                      //////////////////////// button "choisir" ////////////////////////
+                                            
+                                            
+                        "Asset-button-MesAnnonces@Endiorite.button":{
+                          "type":"button",
+                          "size":["95%",15],    
+                          "layer":10,
+                          "hover_control": "hover",
+                          "bindings": [
+          
+                                    {
+                                      "binding_type": "collection_details",
+                                      "binding_collection_name": "form_buttons"
+                                  }
+                                
+                                      ],
+          
+                          "button_mappings": [
+          
+                                  {"from_button_id": "button.menu_select",
+                                  "to_button_id": "button.form_button_click",
+                                  "mapping_type": "pressed"},
+          
+                                 {"from_button_id": "button.menu_ok",
+                                  "to_button_id": "button.form_button_click",
+                                  "mapping_type": "focused"}
+                                
+                                        ],  
+
+                                "controls":[
+                                        
+                                       
+                                        {"texture@Endiorite.button_red":{}},
+                                        {"hover@Endiorite.button_red_hover":{}},
+                                        {"text@Endiorite.Text_button":{
+                                                "text":"Choisir",
+                                                "font_scale_factor":0.7,
+                                                "layer":20,
+                                                "offset":[0,-1.5]
+                                        }}
+                                                    
+
+                        ]},
+
+
+                      //////////////////////// list-item-joueur ////////////////////////
+                                                
+                      "button-list-item-joueur@Endiorite.button-text":{
+                                "size":["100%",10],
+                                "bindings": [
+                                      {
+                                          "binding_type": "collection_details",
+                                          "binding_collection_name": "form_buttons"
+                                      },
+                                      {
+                                        "binding_name": "#form_button_text",
+                                        "binding_name_override": "#form_button_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "form_buttons"
+                                      },
+                                      {
+                                        "binding_type": "view",
+                                        "source_property_name": "(not((#form_button_text - '§j§o§u§e§u§r§r§f') \u003d #form_button_text))",
+                                        "target_property_name": "#visible"
+                                      }
+                                    ],
+                          
+                                "controls":[
+                                          
+                                          {"title@Endiorite.Text_button":{
+                                                  "text":"#text",
+                                                  "font_scale_factor":0.8,
+                                                  "text-alignement":"center"
+                                          }}
+                                                      
+  
+                          ]},
+                          
+                          "list-item-joueur@Endiorite.Get_button":{
+                                      "type": "stack_panel",
+                                        "factory": {
+                                        "name":"button",
+                                        "control_name": "Kits.button-list-item-joueur"
+                                        }
+                                    
+                          },
+                          
+                      //////////////////////// list-item-joueur ////////////////////////
+                                                
+                      "button-list-item-titan@Endiorite.button-text":{
+                                "size":["100%",10],
+                                "bindings": [
+                                      {
+                                          "binding_type": "collection_details",
+                                          "binding_collection_name": "form_buttons"
+                                      },
+                                      {
+                                        "binding_name": "#form_button_text",
+                                        "binding_name_override": "#form_button_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "form_buttons"
+                                      },
+                                      {
+                                        "binding_type": "view",
+                                        "source_property_name": "(not((#form_button_text - '§t§i§t§a§n§r§f') \u003d #form_button_text))",
+                                        "target_property_name": "#visible"
+                                      }
+                                      
+                                    ],
+                          
+                                  "controls":[
+                                          
+                                          {"title@Endiorite.Text_button":{
+                                                  "text":"#text",
+                                                  "font_scale_factor":0.8,
+                                                  "text-alignement":"center"
+                                          }}
+                                                      
+  
+                          ]},
+                          
+                          "list-item-titan@Endiorite.Get_button":{
+                                      "type": "stack_panel",
+                                        "factory": {
+                                        "name":"button",
+                                        "control_name": "Kits.button-list-item-titan"
+                                        }
+                                    
+                          },
+
+                      //////////////////////// list-item-joueur ////////////////////////
+                                                
+                      "button-list-item-paladin@Endiorite.button-text":{
+                        "size":["100%",10],
+                        "bindings": [
+                              {
+                                  "binding_type": "collection_details",
+                                  "binding_collection_name": "form_buttons"
+                              },
+                              {
+                                "binding_name": "#form_button_text",
+                                "binding_name_override": "#form_button_text",
+                                "binding_type": "collection",
+                                "binding_collection_name": "form_buttons"
+                              },
+                              {
+                                "binding_type": "view",
+                                "source_property_name": "(not((#form_button_text - '§p§a§l§a§d§i§n§r§f') \u003d #form_button_text))",
+                                "target_property_name": "#visible"
+                              }
+                              
+                            ],
+                  
+                          "controls":[
+                                  
+                                  {"title@Endiorite.Text_button":{
+                                          "text":"#text",
+                                          "font_scale_factor":0.8,
+                                          "text-alignement":"center"
+                                  }}
+                                  
+                                              
+
+                  ]},
+                  
+                  "list-item-paladin@Endiorite.Get_button":{
+                              "type": "stack_panel",
+                                "factory": {
+                                "name":"button",
+                                "control_name": "Kits.button-list-item-paladin"
+                                }
+                            
+                  },
+
+                      //////////////////////// list-item-joueur ////////////////////////
+                                                
+                                        "button-list-item-endiorite@Endiorite.button-text":{
+                                          "size":["100%",10],
+                                          "bindings": [
+                                                {
+                                                    "binding_type": "collection_details",
+                                                    "binding_collection_name": "form_buttons"
+                                                },
+                                                {
+                                                  "binding_name": "#form_button_text",
+                                                  "binding_name_override": "#form_button_text",
+                                                  "binding_type": "collection",
+                                                  "binding_collection_name": "form_buttons"
+                                                },
+                                                {
+                                                  "binding_type": "view",
+                                                  "source_property_name": "(not((#form_button_text - '§e§n§d§i§o§r§i§t§e§r§f') \u003d #form_button_text))",
+                                                  "target_property_name": "#visible"
+                                                }
+                                                
+                                              ],
+                                    
+                                            "controls":[
+                                                    
+                                                    {"title@Endiorite.Text_button":{
+                                                            "text":"#text",
+                                                            "font_scale_factor":0.8,
+                                                            "text-alignement":"center"
+                                                    }}
+                                                                
+                  
+                                    ]},
+                                    
+                                    "list-item-endiorite@Endiorite.Get_button":{
+                                                "type": "stack_panel",
+                                                  "factory": {
+                                                  "name":"button",
+                                                  "control_name": "Kits.button-list-item-endiorite"
+                                                  }
+                                              
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        }
+                                          

@@ -1,0 +1,43 @@
+{
+	"namespace": "scoreboard_ui",
+
+	"component_texture_scoreboard": {
+          
+        "$position_score_aru": [-1, 0], 
+		"$bg_scoreboard": "textures/ui/scoreboard/border_scoreboard", 
+		"$transparency_bg": 1, 
+		
+		"$anchor_from_aru": "right_middle",           
+        "$anchor_to_aru": "right_middle",               
+		
+		"$icon_scoreboard_base": "textures/ui/scoreboard/logo_scoreboard", 
+		"$logo_aruban_base": "(#objective_sidebar_name = 'fr.endiorite.scoreboard')",    
+
+		"$icon_scoreboard_anim": "textures/ui/scoreboard/logo_scoreboard_anim",  
+		"$icon_uv_size": [ 849, 101],
+        "$logo_aruban_anim": "(#objective_sidebar_name = 'fr.endiorite.scoreboard.anim')",     
+
+		"$text_aruban_inv": "(not ((#objective_sidebar_name = 'fr.endiorite.scoreboard.anim') or (#objective_sidebar_name = 'fr.endiorite.scoreboard')))", 
+		"$position_icon" : [ 0,2],  
+		"$icon_size": [102,22],   
+
+		"$title_score_aru": "MinecraftTen",  
+		"$title_size_aru" : "normal",     
+
+		"$player_score_aru": "MinecraftTen",
+		"$player_size_aru" : "normal"  
+	  },
+
+	"anim_scoreboard": {"anim_type": "uv","easing": "linear","from": "$uv_frame","to": "$uv_frame","duration": 0.1 },
+
+
+	"scoreboard1@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 0 ], "next": "@scoreboard_ui.scoreboard2" },
+	"scoreboard2@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 101], "next": "@scoreboard_ui.scoreboard3" },
+	"scoreboard3@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 202], "next": "@scoreboard_ui.scoreboard4" },
+	"scoreboard4@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 303 ], "next": "@scoreboard_ui.scoreboard5" },
+	"scoreboard5@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 404 ], "next": "@scoreboard_ui.scoreboard6" },
+	"scoreboard6@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 505 ], "next": "@scoreboard_ui.scoreboard7" },
+	"scoreboard7@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 606 ], "next": "@scoreboard_ui.scoreboard8" },
+	"scoreboard8@scoreboard_ui.anim_scoreboard": { "$uv_frame": [ 0, 707 ], "next": "@scoreboard_ui.scoreboard1" }
+
+}

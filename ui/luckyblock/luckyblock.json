@@ -1,0 +1,977 @@
+{
+    "namespace": "luckyblock",
+
+    "ui": {
+        "type": "panel",
+        "size": [180,185],
+        "layer": 2,
+        "controls": [
+
+            {"background": {
+                "type": "image",
+                "layer": 1,
+                "texture": "textures/ui/Endiorite/background2",
+                "controls":[
+
+                    
+                        /////////////////////////// Texte - luckyblock - event ///////////////////////////
+
+                        {"title":{
+                                    "type":"label",
+                                    "font_scale_factor":1.7,
+                                    "text":"lucky block",
+                                    "offset":[0,7],
+                                    "anchor_from":"top_middle",
+                                    "anchor_to":"top_middle",
+                                    "font_type":"MinecraftTen",
+                                    "color": [0.725,0.110,0.047],
+                                    "controls": [
+                                            {
+                                                "shadow": {
+                                                    "type": "label",
+                                                    "font_scale_factor":1.7,
+                                                    "font_type":"MinecraftTen",
+                                                    "text": "lucky block",
+                                                    "color": [0.937,0.224, 0.149],
+                                                    "offset": [0,-0.7]
+                                                }}]
+                        }},
+
+                        //Paladium [text ON / icone ON]
+                        {"subtitle-luckyblock en Paladium@luckyblock.subtitle":{
+                                    "text":"luckyblock en Paladium",
+                                    "bindings":[
+                                        { 
+                                                "binding_name": "#title_text",
+                                                "binding_type": "global"
+                                        },
+                                        {
+                                                "binding_type": "view",
+                                                "source_property_name": "(#title_text = 'luckyblock-Paladium')",  
+                                                "target_property_name": "#visible"
+                                        }       
+                                    ],
+                                    "controls": [
+
+                                        {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                            "text":"luckyblock en Paladium"
+                                        }},
+
+                                        {"icone@luckyblock.Image-luckyblock":{
+                                            "texture":"textures/ui/Endiorite/luckyblock/paladium_luckyblock"
+
+                                        }}
+                                        
+                                    ]
+                        }},
+
+                        //Endiorite [text ON / icone OFF]
+                        {"subtitle-luckyblock en Endiorite@luckyblock.subtitle":{
+                            "text":"luckyblock en Endiorite",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-Endiorite')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock en Endiorite"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //Findium [text ON / icone OFF]
+                        {"subtitle-luckyblock en Findium@luckyblock.subtitle":{
+                            "text":"luckyblock en Findium",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-Findium')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock en Findium"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //halloween [text ON / icone OFF]
+                        {"subtitle-luckyblock de halloween@luckyblock.subtitle":{
+                            "text":"luckyblock de halloween",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-halloween')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de halloween"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //black [text ON / icone OFF]
+                        {"subtitle-luckyblock black@luckyblock.subtitle":{
+                            "text":"black luckyblock",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-black')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"black luckyblock"
+                                }}
+                                
+                            ]
+                        }},
+
+                        /////////////////////////// Texte - luckyblock Month ///////////////////////////
+
+                        //august [text ON / icone OFF]
+                        {"subtitle-luckyblock-august@luckyblock.subtitle":{
+                            "text":"luckyblock d'Avril",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-august')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock d'Avril"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //july [text ON / icone OFF]
+                        {"subtitle-luckyblock-july@luckyblock.subtitle":{
+                            "text":"luckyblock de Juin",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-july')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de Juin"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //june [text ON / icone OFF]
+                        {"subtitle-luckyblock-june@luckyblock.subtitle":{
+                            "text":"luckyblock de juin",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-juin')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de juin"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //march [text ON / icone OFF]
+                        {"subtitle-luckyblock-march@luckyblock.subtitle":{
+                            "text":"luckyblock de Mars",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-march')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de Mars"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //May [text ON / icone OFF]
+                        {"subtitle-luckyblock-May@luckyblock.subtitle":{
+                            "text":"luckyblock de Mai",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-May')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de Mai"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //november [text ON / icone OFF]
+                        {"subtitle-luckyblock-november@luckyblock.subtitle":{
+                            "text":"luckyblock de Novembre",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-november')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de Novembre"
+                                }}
+                                
+                            ]
+                        }},
+
+                        //september [text ON / icone OFF]
+                        {"subtitle-luckyblock september@luckyblock.subtitle":{
+                            "text":"luckyblock de Septembre",
+                            "bindings":[
+                                { 
+                                        "binding_name": "#title_text",
+                                        "binding_type": "global"
+                                },
+                                {
+                                        "binding_type": "view",
+                                        "source_property_name": "(#title_text = 'luckyblock-september')",  
+                                        "target_property_name": "#visible"
+                                }       
+                            ],
+                            "controls": [
+
+                                {"shadow-subtitle@luckyblock.shadow-subtitle":{
+                                    "text":"luckyblock de Septembre"
+                                }}
+                                
+                            ]
+                        }},
+
+                        {"border": {
+                                "type": "image",
+                                "texture": "textures/ui/Endiorite/luckyblock/border",
+                                "anchor_from": "bottom_middle",
+                                "anchor_to": "bottom_middle",
+                                "offset": [0,-25],
+                                "size": [174,20],
+                                "controls": [
+
+
+                                    {"title-Ouverture En cours":{
+                                        "type":"label",
+                                        "font_scale_factor":0.7,
+                                        "text":"ouverture En cours",
+                                        "offset": [0,-1],
+                                        "alpha":0,
+                                        "layer":1000,
+                                        "anims": [
+                                            "@luckyblock.AlphaON-Ouverture En cours"],
+                                        "font_type":"MinecraftTen",
+                                        "color": "white"
+                                    }},
+
+                                    {"all_icone_roll":{
+                                        "type":"collection_panel",
+                                        "collection_name": "form_buttons",
+                                        "size":["100%","100%"],
+                                        "controls": [
+
+                                                {"all_icone_roll":{
+                                                    "type":"button",
+                                                    "collection_index":1,
+                                                    "size":["100%","100%"],
+                                                    "bindings": [
+                
+                                                        {"binding_type": "collection_details",
+                                                        "binding_collection_name": "form_buttons"}],
+                
+                                                    "controls":[
+                
+                                                            {"test_roll":{
+                                                                "type":"label",
+                                                                "layer":1000000,
+                                                                "font_scale_factor":0.7,
+                                                                "offset": [0,-1],
+                                                                "font_type":"MinecraftTen",
+                                                                "text_alignment":"center",
+                                                                "color": "white",
+                                                                "alpha":0,
+                                                                "text":"#text",
+                                                                "anims": [
+                                                                    "@luckyblock.wait"],
+
+                                                                "bindings": [
+
+                                                                    { "binding_name": "#form_button_text",
+                                                                        "binding_name_override": "#text",
+                                                                        "binding_type": "collection",
+                                                                        "binding_collection_name": "form_buttons"}
+                                                                    ]
+                                                            }
+                                                            }
+                                                        ]}}
+                                                            
+                                                            
+                                                            ]}}
+
+
+
+                        ]}},
+
+                        /////////////////////////// Button ///////////////////////////
+
+                            {"close_button_panel":{
+                                "type":"collection_panel",
+                                "collection_name": "form_buttons",
+                                "size": [70, 15],
+                                "anchor_from":"bottom_middle",
+                                "anchor_to":"bottom_middle",
+                                "offset":[0,-100000000],
+                                "anims": [
+                                    "@luckyblock.wait_close_button"],
+                                "controls":[
+
+
+                            {"Close@Endiorite.button": {
+                                "size": ["100%", "100%"],
+                                "collection_index":0,
+                                "type":"button",
+                                "bindings": [
+
+                                    {"binding_type": "collection_details",
+                                    "binding_collection_name": "form_buttons"}],
+                                    "controls":[
+
+                                        {"texture@Endiorite.button_red":{}},
+                                        {"hover@Endiorite.button_red_hover":{}},
+                                        {"text@Endiorite.Text_button":{
+                                            "text":"#text",
+                                            "offset":[0,-1.2],
+                                            "layer":1000000000
+                                        }}
+                                        
+
+
+                                    ]}}
+
+                            
+                        ]}},
+
+                        /////////////////////////// role ///////////////////////////
+
+
+
+                {"role_panel": {
+                    "type": "panel",
+                    "size":[148.5,150],
+                    "controls": [
+
+                        {"border": {
+                                "type": "image",
+                                "size": ["100%","100%"],
+                                "layer": 13,
+                                
+                                "texture": "textures/ui/Endiorite/luckyblock/red_border",
+                                "controls": [
+
+                                    {"image":{
+                                        "type":"panel",
+                                        "size":["100%","56%"],
+                                        "texture":"textures/ui/Endiorite/Black",
+                                        "controls":[
+
+                                            {"stack_roll":{
+                                                "type":"panel",
+                                                "clips_children":true,
+                                                "size":["100%","100%"],
+                                                "controls":[
+
+
+                                                                {"roll-1_left":{
+                                                                    "type":"stack_panel",
+                                                                    "collection_name": "form_buttons",
+                                                                    "layer": 10000000000,
+                                                                    "offset":[-50,-471],
+                                                                    "anims": [
+                                                                        "@luckyblock.left_roll_start"
+                                                                    
+                                                                    ],
+                                                                    "size":["33%","100%"],
+
+                                                                    "controls":[
+
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":7
+                                                                        }},       
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":1
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":12
+                                                                        }},      
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":6
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":15
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":4
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":9
+                                                                        }},       
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":11
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":13
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":8
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":14
+                                                                        }},       
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":5
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":10
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":3
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":15
+                                                                        }},       
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":7
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.all_icone_roll":{
+                                                                            "collection_index":2
+                                                                        }},
+                                                                        {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                        {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                        {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                        {"test_rolle@luckyblock.interrog_roll_icone":{}}
+                                                                    
+
+                                                                ]}},
+
+                                                                {"roll-2_center":{
+                                                                        "type":"stack_panel",
+                                                                        "collection_name": "form_buttons",
+                                                                        "layer": 10000000000,
+                                                                        "offset":[0,-471],
+                                                                        "anims": [
+                                                                            "@luckyblock.center_roll_wait"
+                                                                        
+                                                                        ],
+                                                                        "size":["33%","100%"],
+    
+                                                                        "controls":[
+    
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":7
+                                                                            }},       
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":1
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":2
+                                                                            }},      
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":4
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":7
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":8
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":3
+                                                                            }},       
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":9
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":13
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":6
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":4
+                                                                            }},       
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":13
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":5
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":10
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":11
+                                                                            }},       
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":12
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                "collection_index":15
+                                                                            }},
+                                                                            {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                            {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                            {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                            {"test_rolle@luckyblock.interrog_roll_icone":{}}
+    
+                                                                ]}},
+
+                                                                {"roll-3_right":{
+                                                                            "type":"stack_panel",
+                                                                            "collection_name": "form_buttons",
+                                                                            "layer": 10000000000,
+                                                                            "offset":[50,-471],
+                                                                            "anims": [
+                                                                                "@luckyblock.right_roll_wait"
+                                                                            ],
+                                                                            "size":["33%","100%"],
+        
+                                                                            "controls":[
+        
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":3
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":1
+                                                                                }},     
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":14
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":6
+                                                                                }},      
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":12
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":7
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":11
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":8
+                                                                                }},       
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":15
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":13
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":5
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":10
+                                                                                }},       
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":9
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":4
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":15
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":2
+                                                                                }},       
+                                                                                {"test_rolle@luckyblock.all_icone_roll":{
+                                                                                    "collection_index":2
+                                                                                }},
+                                                                                {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                                {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                                {"test_rolle@luckyblock.interrog_roll_icone":{}},
+                                                                                {"test_rolle@luckyblock.interrog_roll_icone":{}}
+            
+                                                                    ]}}
+                                                                    ]}}
+                                                                    ]}}
+                                                                    ]}},
+
+
+
+                        {"Asset-rolle": {
+                                "type": "panel",
+                                "controls": [
+
+                                    {
+                                        "role_background_0": {
+                                            "type": "image",
+                                            "layer": 11,
+                                            "size": [ "45%","57%"],
+                                            "offset": [-48,0],
+                                            "texture": "textures/ui/Endiorite/luckyblock/role_background_0"
+
+                                    }},
+
+                                    {
+                                        "role_background_1_center": {
+                                            "type": "image",
+                                            "layer": 11,
+                                            "size": [ "45%","57%"],
+                                            "texture": "textures/ui/Endiorite/luckyblock/role_background_1"
+                                    }},
+
+                                    {
+                                        "role_background_2_droite": {
+                                            "type": "image",
+                                            "layer": 11,
+                                            "size": [ "45%","57%"],
+                                            "offset": [48,0],
+                                            "texture": "textures/ui/Endiorite/luckyblock/role_background_2"
+                                    }},
+
+                                    {
+                                        "arrow_left": {
+                                            "type": "image",
+                                            "size": [16,14],
+                                            "offset": [ -72,0],
+                                            "layer":1000,
+                                            "texture": "textures/ui/Endiorite/luckyblock/arrow_left"
+                                    }},
+
+                                    {
+                                        "arrow_right": {
+                                            "type": "image",
+                                            "size": [16,14],
+                                            "offset": [72,0],
+                                            "layer":1000,
+                                            "texture": "textures/ui/Endiorite/luckyblock/arrow_right"
+                                    }},
+
+                                    {
+                                        "border_left": {
+                                            "type": "image",
+                                            "layer": 11,
+                                            "size": ["60%","57%"],
+                                            "offset": [-24.3,0],
+                                            "texture": "textures/ui/Endiorite/luckyblock/border_left"
+                                    }},
+
+                                    {
+                                        "border_right": {
+                                            "type": "image",
+                                            "layer": 11,
+                                            "size": ["60%","57%"],
+                                            "offset": [25,0],
+                                            "texture": "textures/ui/Endiorite/luckyblock/border_right"
+                                    }}
+
+                                    
+
+
+                        ]}}
+
+                                ]}}
+
+                                ]}}
+                                ]},
+
+                                "interrog_roll_icone":{
+                                        "type":"panel",
+                                        "size":["100%","33%"],
+                                        "controls":[
+    
+                                                {"test_roll":{
+                                                    "type":"image",
+                                                    "layer":10000000000,
+                                                    "texture":"textures/ui/Endiorite/luckyblock/interrog",
+                                                    "size":[20,20]
+                                                }
+                                            }
+        
+                                            
+                                ]},
+
+                                "all_icone_roll":{
+                                    "type":"button",
+                                    "size":["100%","33%"],
+                                    "bindings": [
+
+                                        {"binding_type": "collection_details",
+                                        "binding_collection_name": "form_buttons"}],
+
+                                    "controls":[
+
+                                            {"icone_roll@Endiorite.icone":{
+                                                "layer":1000000,
+                                                "size":[20,20]
+                                            }
+                                            }]},
+
+                                //////////////// button animation ////////////
+
+                                    "open_button": {
+                                        "anim_type": "offset",
+                                        "duration": 0,
+                                        "easing": "linear",
+                                        "from":[0,-8],
+                                        "to":[0,-100000000],
+                                        "play_event": "button.animbutton" 
+                                    },
+
+                                    "wait_close_button": {
+                                        "anim_type": "wait",
+                                        "duration": 3.5,
+                                        "next": "@luckyblock.skip_alpha_on" 
+                                    },
+                                    
+
+                                    "skip_alpha_on": {
+                                        "anim_type": "offset",
+                                        "easing": "linear",
+                                        "duration": 0,
+                                        "from":[0,-100000000],
+                                        "to":[0,-8]
+                                    },
+                                    
+
+                                //////////////// Text Animation ////////////
+
+                                //Text - Click pour ouvrire le lucky block
+
+                                    "Alpha-Click pour ouvrire le lucky block": {
+                                        "anim_type": "alpha",
+                                        "easing": "out_cubic",
+                                        "duration": 0,
+                                        "resettable": true,
+                                        "from": 1,
+                                        "to": 0,
+                                        "play_event": "button.animbutton" 
+                                    },
+
+                                //Text - Ouverture En cours
+
+                                    "AlphaON-Ouverture En cours": {
+                                        "anim_type": "alpha",
+                                        "easing": "out_cubic",
+                                        "duration": 0,
+                                        "resettable": true,
+                                        "from": 0,
+                                        "to": 1,
+                                        "next":"@luckyblock.wait-Ouverture En cours"
+                                    },
+
+                                    "wait-Ouverture En cours": {
+                                        "anim_type": "wait",
+                                        "duration": 3.5,
+                                        "next":"@luckyblock.AlphaON2-Ouverture En cours"
+                                    },
+
+                                    "AlphaON2-Ouverture En cours": {
+                                        "anim_type": "alpha",
+                                        "easing": "out_cubic",
+                                        "duration": 0,
+                                        "from": 1,
+                                        "to": 0
+                                    },
+
+                                //Text - item win name
+
+                                    "wait": {
+                                        "anim_type": "wait",
+                                        "duration": 3.5,
+                                        "next":"@luckyblock.title2"
+                                    },
+
+                                    "title2": {
+                                        "anim_type": "alpha",
+                                        "easing": "out_cubic",
+                                        "duration": 0,
+                                        "resettable": true,
+                                        "from": 0,
+                                        "to": 1
+                                    },
+
+                                //////////////// Roll animation left////////////////
+
+                                "left_roll_start": {
+                                    "anim_type": "offset",
+                                    "easing": "out_cubic",
+                                    "duration": 0.75,
+                                    "from": [-50,-471],
+                                    "to": [-50,-486],
+                                    "next":"@luckyblock.left_roll_fin"
+                                },
+
+                                "left_roll_fin": {
+                                    "anim_type": "offset",
+                                    "easing": "out_cubic",
+                                    "duration": 2.50,
+                                    "from":   [-50,-486],
+                                    "to": [-50,0]
+                            
+                                },
+
+                                   //////////////// Roll animation center////////////////
+
+                                "center_roll_wait": {
+                                    "anim_type": "wait",
+                                    "duration": 0.25,
+                                    "next":"@luckyblock.center_roll_start"
+                            
+                                },
+
+                                "center_roll_start": {
+                                    "anim_type": "offset",
+                                    "easing": "out_cubic",
+                                    "duration": 0.75,
+                                    "from": [0,-471],
+                                    "to": [0,-486],
+                                    "next":"@luckyblock.center_roll_fin"
+                                },
+
+                                "center_roll_fin": {
+                                    "anim_type": "offset",
+                                    "easing": "out_cubic",
+                                    "duration": 2.50,
+                                    "from":  [0,-486],
+                                    "to": [0,0]
+                            
+                                },
+
+                                //////////////// Roll animation right////////////////
+
+                                "right_roll_wait": {
+                                        "anim_type": "wait",
+                                        "duration": 0.50,
+                                        "next":"@luckyblock.right_roll_start"
+                                
+                                },
+                                    
+                                "right_roll_start": {
+                                        "anim_type": "offset",
+                                        "easing": "out_cubic",
+                                        "duration": 0.75,
+                                        "from": [50,-471],
+                                        "to": [50,-486],
+                                        "next":"@luckyblock.right_roll_fin"
+                                },
+    
+                                "right_roll_fin": {
+                                        "anim_type": "offset",
+                                        "easing": "out_cubic",
+                                        "duration": 2.50,
+                                        "from":  [50,-486],
+                                        "to": [50,0]
+                                },
+
+                                //////////////// Asset ////////////////
+                                
+                                "subtitle":{
+                                    "type":"label",
+                                    "font_scale_factor":0.75,
+                                    "offset":[0,25],
+                                    "color": [0.8,0.8,0.8],
+                                    "anchor_from":"top_middle",
+                                    "anchor_to":"top_middle",
+                                    "font_type":"MinecraftTen"
+                                },
+
+                                "shadow-subtitle": {
+                                    "type": "label",
+                                    "layer": 15,
+                                    "font_type": "MinecraftTen",
+                                    "color": "white",
+                                    "offset": [0,-0.7],
+                                    "font_scale_factor":0.75
+                                },
+
+                                "Image-lukyblock": {
+                                    "type": "image",
+                                    "layer": 15,
+                                    "size":[50,50],
+                                    "offset": [134.5,50]
+                                } 
+                        }
+                                    
+          
+   

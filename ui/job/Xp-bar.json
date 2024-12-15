@@ -1,0 +1,1983 @@
+{
+	"namespace": "Xp-bar",
+        
+  "Xp-bar":{
+    "size":["75%","75%"],
+    "type":"collection_panel",
+    "collection_name": "form_buttons",
+    "controls":[
+
+            {"1%@Endiorite.Xp-bar":{
+                    "size":["1%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 1)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"2%@Endiorite.Xp-bar":{
+                    "size":["2%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 2)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"3%@Endiorite.Xp-bar":{
+                    "size":["3%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 3)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"4%@Endiorite.Xp-bar":{
+                    "size":["4%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 4)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"5%@Endiorite.Xp-bar":{
+                    "size":["5%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 5)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"6%@Endiorite.Xp-bar":{
+                    "size":["6%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 6)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"7%@Endiorite.Xp-bar":{
+                    "size":["7%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 7)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"8%@Endiorite.Xp-bar":{
+                    "size":["8%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 8)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"9%@Endiorite.Xp-bar":{
+                    "size":["9%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 9)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"10%@Endiorite.Xp-bar":{
+                    "size":["10%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 10)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"11%@Endiorite.Xp-bar":{
+                    "size":["11%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 11)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"12%@Endiorite.Xp-bar":{
+                    "size":["12%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 12)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"13%@Endiorite.Xp-bar":{
+                    "size":["13%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 13)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"14%@Endiorite.Xp-bar":{
+                    "size":["14%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 14)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"15%@Endiorite.Xp-bar":{
+                    "size":["11%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 15)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"16%@Endiorite.Xp-bar":{
+                    "size":["16%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 16)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"17%@Endiorite.Xp-bar":{
+                    "size":["17%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 17)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"18%@Endiorite.Xp-bar":{
+                    "size":["18%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 18)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"18%@Endiorite.Xp-bar":{
+                    "size":["18%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 18)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"19%@Endiorite.Xp-bar":{
+                    "size":["19%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 19)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"20%@Endiorite.Xp-bar":{
+                    "size":["20%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 20)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"21%@Endiorite.Xp-bar":{
+                    "size":["21%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 21)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"22%@Endiorite.Xp-bar":{
+                    "size":["22%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 22)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"23%@Endiorite.Xp-bar":{
+                    "size":["23%","75%"],
+                    "bindings": [
+                            { 
+                                    "binding_name": "#form_button_text",
+                                    "binding_type": "collection",
+                                    "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#form_button_text * 1)", 
+                                    "target_property_name": "#score"
+                            },
+                            {
+                                    "binding_type": "view",
+                                    "source_property_name": "(#score = 23)",  
+                                    "target_property_name": "#visible"
+                            }
+            ]}},
+            {"24%@Endiorite.Xp-bar": {
+                      "size": ["24%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 24)",
+                          "target_property_name": "#visible"
+                        }
+            ]}},
+            {"25%@Endiorite.Xp-bar": {
+                      "size": ["25%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 25)",
+                          "target_property_name": "#visible"
+                        }
+            ]}},
+            {"26%@Endiorite.Xp-bar": {
+                      "size": ["26%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 26)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"27%@Endiorite.Xp-bar": {
+                      "size": ["27%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 27)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"28%@Endiorite.Xp-bar": {
+                      "size": ["28%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 28)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"29%@Endiorite.Xp-bar": {
+                      "size": ["29%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 29)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"30%@Endiorite.Xp-bar": {
+                      "size": ["30%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 30)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"31%@Endiorite.Xp-bar": {
+                      "size": ["31%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 31)",
+                          "target_property_name": "#visible"
+                        }
+            ]}},
+            {"32%@Endiorite.Xp-bar": {
+                      "size": ["32%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 32)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"33%@Endiorite.Xp-bar": {
+                      "size": ["33%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 33)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"34%@Endiorite.Xp-bar": {
+                      "size": ["34%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 34)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"35%@Endiorite.Xp-bar": {
+                      "size": ["35%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 35)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"36%@Endiorite.Xp-bar": {
+                      "size": ["36%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 36)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"37%@Endiorite.Xp-bar": {
+                      "size": ["37%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 37)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"38%@Endiorite.Xp-bar": {
+                      "size": ["38%", "75%"],
+                      "bindings": [
+                        {
+                          "binding_name": "#form_button_text",
+                          "binding_type": "collection",
+                          "binding_collection_name": "form_buttons"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#form_button_text * 1)",
+                          "target_property_name": "#score"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "(#score = 38)",
+                          "target_property_name": "#visible"
+                        }
+                      ]
+            }},
+            {"39%@Endiorite.Xp-bar": {
+                    "size": ["39%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 39)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"40%@Endiorite.Xp-bar": {
+                    "size": ["40%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 40)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"41%@Endiorite.Xp-bar": {
+                    "size": ["41%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 41)",
+                        "target_property_name": "#visible"
+                      }
+                            ]}},
+            {"42%@Endiorite.Xp-bar": {
+                    "size": ["42%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 42)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"43%@Endiorite.Xp-bar": {
+                    "size": ["43%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 43)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"44%@Endiorite.Xp-bar": {
+                    "size": ["44%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 44)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"45%@Endiorite.Xp-bar": {
+                    "size": ["45%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 45)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"46%@Endiorite.Xp-bar": {
+                    "size": ["46%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 46)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"47%@Endiorite.Xp-bar": {
+                    "size": ["47%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 47)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"48%@Endiorite.Xp-bar": {
+                    "size": ["48%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 48)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"49%@Endiorite.Xp-bar": {
+                    "size": ["49%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 49)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"50%@Endiorite.Xp-bar": {
+                    "size": ["50%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 50)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"51%@Endiorite.Xp-bar": {
+                    "size": ["51%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 51)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"52%@Endiorite.Xp-bar": {
+                    "size": ["52%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 52)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"53%@Endiorite.Xp-bar": {
+                    "size": ["53%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 53)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"54%@Endiorite.Xp-bar": {
+                    "size": ["54%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 54)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"55%@Endiorite.Xp-bar": {
+                    "size": ["55%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 55)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"56%@Endiorite.Xp-bar": {
+                    "size": ["56%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 56)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"57%@Endiorite.Xp-bar": {
+                    "size": ["57%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 57)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"58%@Endiorite.Xp-bar": {
+                    "size": ["58%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 58)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"59%@Endiorite.Xp-bar": {
+                    "size": ["59%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 59)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"60%@Endiorite.Xp-bar": {
+                    "size": ["60%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 60)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"61%@Endiorite.Xp-bar": {
+                    "size": ["61%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 61)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"62%@Endiorite.Xp-bar": {
+                    "size": ["62%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 62)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"63%@Endiorite.Xp-bar": {
+                    "size": ["63%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 63)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"64%@Endiorite.Xp-bar": {
+                    "size": ["64%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 64)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"65%@Endiorite.Xp-bar": {
+                    "size": ["65%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 65)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"66%@Endiorite.Xp-bar": {
+                    "size": ["66%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 66)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"67%@Endiorite.Xp-bar": {
+                    "size": ["67%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 67)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"68%@Endiorite.Xp-bar": {
+                    "size": ["68%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 68)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"69%@Endiorite.Xp-bar": {
+                    "size": ["69%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 69)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"70%@Endiorite.Xp-bar": {
+                    "size": ["70%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 70)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"71%@Endiorite.Xp-bar": {
+                    "size": ["71%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 71)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"72%@Endiorite.Xp-bar": {
+                    "size": ["72%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 72)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"73%@Endiorite.Xp-bar": {
+                    "size": ["73%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 73)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"74%@Endiorite.Xp-bar": {
+                    "size": ["74%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 74)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"75%@Endiorite.Xp-bar": {
+                    "size": ["75%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 75)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"76%@Endiorite.Xp-bar": {
+                    "size": ["76%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 76)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"77%@Endiorite.Xp-bar": {
+                    "size": ["77%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 77)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"77%@Endiorite.Xp-bar": {
+                    "size": ["77%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 77)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"78%@Endiorite.Xp-bar": {
+                    "size": ["78%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 78)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"79%@Endiorite.Xp-bar": {
+                    "size": ["79%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 79)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"80%@Endiorite.Xp-bar": {
+                    "size": ["80%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 80)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"81%@Endiorite.Xp-bar": {
+                    "size": ["81%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 81)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"82%@Endiorite.Xp-bar": {
+                    "size": ["82%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 82)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"83%@Endiorite.Xp-bar": {
+                    "size": ["83%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 83)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"84%@Endiorite.Xp-bar": {
+                    "size": ["84%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 84)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"85%@Endiorite.Xp-bar": {
+                    "size": ["85%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 85)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"86%@Endiorite.Xp-bar": {
+                    "size": ["86%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 86)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"87%@Endiorite.Xp-bar": {
+                    "size": ["87%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 87)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"88%@Endiorite.Xp-bar": {
+                    "size": ["88%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 88)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"89%@Endiorite.Xp-bar": {
+                    "size": ["89%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 89)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"90%@Endiorite.Xp-bar": {
+                    "size": ["76%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 90)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"91%@Endiorite.Xp-bar": {
+                    "size": ["91%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 91)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"92%@Endiorite.Xp-bar": {
+                    "size": ["76%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 92)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"93%@Endiorite.Xp-bar": {
+                    "size": ["76%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 93)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"94%@Endiorite.Xp-bar": {
+                    "size": ["94%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 94)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"95%@Endiorite.Xp-bar": {
+                    "size": ["95%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 95)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"95%@Endiorite.Xp-bar": {
+                    "size": ["95%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 95)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"96%@Endiorite.Xp-bar": {
+                    "size": ["96%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 96)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"97%@Endiorite.Xp-bar": {
+                    "size": ["97%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 97)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"98%@Endiorite.Xp-bar": {
+                    "size": ["98%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 98)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"99%@Endiorite.Xp-bar": {
+                    "size": ["99%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 99)",
+                        "target_property_name": "#visible"
+                      }
+            ]}},
+            {"100%@Endiorite.Xp-bar": {
+                    "size": ["100%", "75%"],
+                    "bindings": [
+                      {
+                        "binding_name": "#form_button_text",
+                        "binding_type": "collection",
+                        "binding_collection_name": "form_buttons"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#form_button_text * 1)",
+                        "target_property_name": "#score"
+                      },
+                      {
+                        "binding_type": "view",
+                        "source_property_name": "(#score = 100)",
+                        "target_property_name": "#visible"
+                      }
+            ]}}
+        
+                    ]}}
+
+
+ 

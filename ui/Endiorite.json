@@ -1,0 +1,360 @@
+{
+	"namespace": "Endiorite",
+
+        "Xp-bar":{
+                "type":"button",
+                "collection_index":3,
+                "anchor_from":"left_middle",
+                "anchor_to":"left_middle",
+                "layer":1,
+                "controls":[
+
+                        {"texture":{ 
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Jobs/bar/barfarmer",
+                                "bindings":[
+                                                { 
+                                                        "binding_name": "#title_text",
+                                                        "binding_type": "global"
+                                                },
+                                                {
+                                                        "binding_type": "view",
+                                                        "source_property_name": "(#title_text = 'Farmer')",  
+                                                        "target_property_name": "#visible"
+                                                }       
+                                ]}},
+                        {"texture":{
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Jobs/bar/barminer",
+                                "bindings":[
+                                                { 
+                                                        "binding_name": "#title_text",
+                                                        "binding_type": "global"
+                                                },
+                                                {
+                                                        "binding_type": "view",
+                                                        "source_property_name": "(#title_text = 'Mineur')",  
+                                                        "target_property_name": "#visible"
+                                                }       
+                                ]}},
+                        {"texture":{
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Jobs/bar/baralchi",
+                                "bindings":[
+                                                { 
+                                                        "binding_name": "#title_text",
+                                                        "binding_type": "global"
+                                                },
+                                                {
+                                                        "binding_type": "view",
+                                                        "source_property_name": "(#title_text = 'Alchimiste')",  
+                                                        "target_property_name": "#visible"
+                                                }       
+                                ]}},
+                        {"texture":{
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Jobs/bar/barhunter",
+                                "bindings":[
+                                                { 
+                                                        "binding_name": "#title_text",
+                                                        "binding_type": "global"
+                                                },
+                                                {
+                                                        "binding_type": "view",
+                                                        "source_property_name": "(#title_text = 'Hunter')",  
+                                                        "target_property_name": "#visible"
+                                                }       
+                                ]}}
+
+        ]},
+
+                        
+        "Get_button":{
+                "type": "collection_panel",
+                "collection_name": "form_buttons",
+                "size": ["100%","100%"],
+                "bindings": [
+        
+                        {"binding_name": "#form_button_length",
+                        "binding_name_override": "#collection_length"}
+                ]
+        },
+
+
+        "close@pause.pause_button_template": {
+                "anchor_from":"top_right",
+                "anchor_to":"top_right",
+                "$pressed_button_name": "button.menu_exit",
+                "controls":[
+
+                        {"texture@Jobs.image-size":{
+                                "texture":"textures/ui/Jobs/job-choice/close"
+                        }},
+
+                        {"hover@Jobs.image-size":{
+                                "texture":"textures/ui/Jobs/job-choice/close_hover"
+                        }}]
+                },
+
+        "close_button@common.button": {
+                "anchor_from":"top_right",
+                "anchor_to":"top_right",
+                "$pressed_button_name": "button.menu_exit",
+                "controls":[
+        
+                        {"texture":{
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Endiorite/close"
+                        }},
+        
+                        {"hover":{
+                                "type":"image",
+                                "size":["100%","100%"],
+                                "texture":"textures/ui/Endiorite/close_hover"
+                        }}]
+                },
+
+
+        "button@common.button":{
+                "type":"button",
+                "layer":10000,
+                "hover_control": "hover",
+                "bindings": [
+
+                        {"binding_type": "collection_details",
+                        "binding_collection_name": "form_buttons"}],
+
+                "button_mappings": [
+
+                        {"from_button_id": "button.menu_select",
+                        "to_button_id": "button.form_button_click",
+                        "mapping_type": "pressed"},
+
+                       {"from_button_id": "button.menu_ok",
+                        "to_button_id": "button.form_button_click",
+                        "mapping_type": "focused"}]
+                
+                
+        },
+
+        "space":{
+                "type":"panel"
+
+        },
+
+        "image":{
+                "type":"image",
+                "layer":20000
+
+        },
+        
+        "edit_box_indent": {
+                "texture": "textures/ui/Endiorite/edit_box_background",
+                "type": "image"
+        },
+
+        "edit_box_indent_hover": {
+                "texture": "textures/ui/Endiorite/edit_box_background_hover",
+                "type": "image"
+        },
+
+
+        "button_search":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/search",
+                "size":["100%","100%"]
+        },
+
+        "button_search_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/search_hover",
+                "size":["100%","100%"]
+        },
+
+        "button_red":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/button_red",
+                "size":["100%","100%"]
+        },
+
+        "button_red_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/button_red_hover",
+                "size":["100%","100%"]
+        },
+
+        "button_green":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/button_green",
+                "size":["100%","100%"]
+        },
+
+        "button_green_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/button_green_hover",
+                "size":["100%","100%"]
+        },
+
+        "button_arrow_right":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/arrow_right",
+                "size":["100%","100%"]
+        },
+
+        "button_arrow_left":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/arrow_left",
+                "size":["100%","100%"]
+        },
+
+        "button_arrow_right_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/arrow_right_hover",
+                "size":["100%","100%"]
+        },
+
+        "button_arrow_left_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/arrow_left_hover",
+                "size":["100%","100%"]
+        },
+
+        "button_back":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/back",
+                "size":["100%","100%"]
+        },
+
+        "button_back_hover":{
+                "type":"image",
+                "texture":"textures/ui/Endiorite/back_hover",
+                "size":["100%","100%"]
+        },
+
+
+
+
+        "title-09":{
+                "type":"label",
+                "font_scale_factor":0.9,
+                "text_alignment":"center",
+                "alignment":"center",
+                "font_type":"MinecraftTen",
+                "layer":20  
+                
+        },
+
+        "icone": {
+                "type": "image",
+                "bindings": [
+                        {
+                                "binding_name": "#form_button_texture",
+                                "binding_name_override": "#texture",
+                                "binding_type": "collection",
+                                "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                "binding_name": "#form_button_texture_file_system",
+                                "binding_name_override": "#texture_file_system",
+                                "binding_type": "collection",
+                                "binding_collection_name": "form_buttons"
+                            },
+                            {
+                                "binding_type": "view",
+                                "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+                                "target_property_name": "#visible"
+                            }]},
+
+        "Text_button":{
+                "type":"label",
+                "text_alignment":"center",
+                "font_type":"MinecraftTen",
+                "layer":100,
+                "bindings": [
+
+                { "binding_name": "#form_button_text",
+                    "binding_name_override": "#text",
+                    "binding_type": "collection",
+                    "binding_collection_name": "form_buttons"}
+                ]},
+
+        "button-text@common.button":{
+                "type":"button",
+                "layer":10,
+                "hover_control": "hover",
+                "bindings": [
+
+                        {"binding_type": "collection_details",
+                        "binding_collection_name": "form_buttons"}]
+        },
+        
+        "hover-text-button@common.button":{
+                "type":"button",
+                "layer":10,
+                "hover_control": "hover",
+                "bindings": [
+
+                        {"binding_type": "collection_details",
+                        "binding_collection_name": "form_buttons"}],
+
+                "controls":[
+
+                        {"texture":{
+                                "type":"image",
+                                "texture":"textures/ui/Jobs/bar/progressBar"}},
+
+                        {"hover":{
+                                "type":"panel",
+                                "controls":[
+                                    {
+                                        "button_text@common.hover_text": {
+                                            "layer": 20000,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#form_button_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "form_buttons"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "#form_button_text",
+                                                    "target_property_name": "#hover_text"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }}
+
+
+
+                ]
+                
+                
+                
+                
+                
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+                }     
+
+
+
+
+ 

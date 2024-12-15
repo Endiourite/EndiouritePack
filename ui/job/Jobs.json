@@ -1,0 +1,129 @@
+{
+	"namespace": "Jobs",
+        
+	"ui": {
+        "type": "stack_panel",
+        "size": ["100%","100%"],
+        "controls":[
+
+                {"panel-button":{
+                        "type":"panel",
+                        "size":["100%","100%"],
+                        "controls":[
+
+                                {"background":{
+                                        "type":"image",
+                                        "size":[400,300],
+                                        "texture":"textures/ui/Jobs/job-choice/background",
+                                        "controls":[
+
+                                                {"close@Endiorite.close":{
+                                                        "offset":[-15,40],
+                                                        "size":[25,25]
+                                                }},
+
+                                                {"panel-button":{
+                                                        "type":"panel",
+                                                        "size":["100%","100%"],
+                                                        "controls":[
+
+                                                                {"button":{
+                                                                        "type":"stack_panel",
+                                                                        "orientation":"horizontal",
+                                                                        "collection_name": "form_buttons",
+                                                                        "size":["100%c","30%"],
+                                                                        "controls":[
+
+                                                                                        {"button4@Jobs.button":{  
+                                                                                                "collection_index":1,     
+                                                                                                "controls":[
+                                                        
+                                                                                                        {"texture@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Farmeur"
+                                                                                                        }},
+
+                                                                                                        {"hover@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Farmeur_Hover"
+                                                                                                        }}]
+                                                                                                    
+                                                                                                        }},
+
+                                                                                        {"button4@Jobs.button":{  
+                                                                                                "collection_index":2,
+                                                                                                "controls":[
+                                                        
+                                                                                                        {"texture@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Hunter"
+                                                                                                        }},
+
+                                                                                                        {"hover@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Hunter_Hover"
+                                                                                                        }}]
+                                                                                        
+                                                                                                        }},
+
+                                                                                        {"button4@Jobs.button":{  
+                                                                                                "collection_index":0,
+                                                                                                "controls":[
+                                                        
+                                                                                                        {"texture@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Alchimiste"
+                                                                                                        }},
+
+                                                                                                        {"hover@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Alchimiste_Hover"
+                                                                                                        }}]
+                                                                        
+                                                                                                        }},
+
+                                                                                        {"button4@Jobs.button":{  
+                                                                                                "collection_index":3,
+                                                                                                "controls":[
+                                                                        
+                                                                                                        {"texture@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Mineur"
+                                                                                                        }},
+
+                                                                                                        {"hover@Jobs.image-size":{
+                                                                                                                "texture":"textures/ui/Jobs/job-choice/Mineur_Hover"
+                                                                                                        }}
+                                                                                                
+                                                                                                        ]}}
+
+                                                                                        ]}}
+                                                                                        ]}}
+                                                                                        ]}}
+                                                                                        ]}}
+                                                                                        ]},
+
+                                        "image-size":{
+                                                "type":"image",
+                                                "size":["95%","95%"]
+
+                                        },
+                                        "button@common.button":{
+                                        "size":[75,100],
+                                        "layer":10,
+                                        "type":"button",
+                                        "hover_control": "hover",
+                                        "bindings": [
+
+                                                {"binding_type": "collection_details",
+                                                "binding_collection_name": "form_buttons"}],
+                
+                                        "button_mappings": [
+            
+                                                {"from_button_id": "button.menu_select",
+                                                "to_button_id": "button.form_button_click",
+                                                "mapping_type": "pressed"},
+
+                                               {"from_button_id": "button.menu_ok",
+                                                "to_button_id": "button.form_button_click",
+                                                "mapping_type": "focused"}
+                                        ]}                                                                                            
+                                        }     
+
+
+
+
+ 
